@@ -1,0 +1,109 @@
+/*Header*/
+header {
+	position: fixed;
+ background: white;
+ width: 100%;
+ z-index: 10;
+}
+.logo img{
+	width: 100%;
+}
+.nav-header {
+	text-align: center;
+ 	justify-content: center;
+ 	align-items: center;
+	padding: 2% 0;
+}
+.nav-header a{
+	text-decoration: none;
+	list-style: none;
+	padding: 0 1%;
+	color: gray;
+}
+.nav-header a:hover{
+	text-decoration: underline;
+	padding:2%;
+	color: green;
+}
+/*Section Nosotros*/
+.nosotros-banner {
+	background-image: url('../img/semilla.jpg');
+ width: 100%;
+ height: 450px;
+}
+.mision-vision .icon {
+	width: 30%;
+}
+.bg-met {
+	height: 400px;
+}
+.bg-izq {
+	background-image: url('../img/metodo.jpg');
+}
+.bg-der {
+	background-image: url('../img/fondo.jpg');
+	text-align: center;
+ 	justify-content: center;
+ 	align-items: center;
+ 	display: flex;
+ 	color: white;
+}
+/*Section Proyecto*/
+.img-proy img{
+	width: 100%;
+}
+#proyectos .cont-proy{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 5%;
+}
+/*Section Equipo*/
+.cont-foto {
+	border-radius: 50%;
+ width: 200px;
+}
+.cont-txt p{
+	font-size: 10px;
+}
+#equipo .redes img{
+	width: 10%
+}
+/*Section Blog*/
+#blog {
+	background-image: url('../img/fondo2.jpg');
+}
+/*Section Siguenos*/
+.cont-siguenos{
+	height: 200px;
+	border:1px gray solid;
+	padding: 2%;
+	position: relative;
+}
+.cont-siguenos img{
+	bottom: 5%;
+ left: 50%;
+ width: 15%;
+ height: auto;
+ position: absolute;
+}
+
+.cont-siguenos img.facebook:hover{
+	background: blue;
+  border-radius: 50%;
+}
+.cont-siguenos img.twitter:hover{
+	background: #28A9E0;
+  border-radius: 50%;
+}
+.cont-siguenos img.linkedin:hover{
+	background: #0077B5;
+  border-radius: 50%;
+}.cont-siguenos img.email:hover{
+	background: #fac60e;
+}
+/*Section Footer*/
+footer .contact p:last-child{
+	color: gray;
+}
